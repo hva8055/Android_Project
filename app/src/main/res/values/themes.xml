@@ -14,4 +14,7 @@
     </style>
 
     <style name="Theme.Youtube" parent="Base.Theme.Youtube" />
+    <style name="Dashboard" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="iconTint">#FFFFFF</item>
+    </style>
 </resources>

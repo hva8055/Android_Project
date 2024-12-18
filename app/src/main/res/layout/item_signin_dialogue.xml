@@ -34,7 +34,8 @@
             android:padding="6dp"
             android:gravity="center"
             android:drawableStart="@drawable/google_tile"
-            android:drawablePadding="6dp"/>
+            android:drawablePadding="6dp"
+            android:id="@+id/txt_google_signin"/>
 
 
     </LinearLayout>

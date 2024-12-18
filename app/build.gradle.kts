@@ -1,3 +1,5 @@
+import com.android.build.gradle.internal.cxx.configure.computeNdkSymLinkFolder
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.gms.google.services)
@@ -5,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.example.youtube"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.youtube"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -32,6 +34,7 @@ android {
     }
 }
 
+
 dependencies {
 
     implementation(libs.appcompat)
@@ -39,8 +42,20 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.auth)
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.storage)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
+    // for circular image
+    implementation(libs.circleimageview)
+    // for connecting with database
+    implementation(libs.picasso)
+    // for gns services
+    implementation(libs.play.services.auth)
+    implementation(libs.glide)
+    implementation(libs.cardview)
+    implementation(libs.media3.exoplayer)
+    implementation(libs.media3.exoplayer.dash)
+    implementation(libs.media3.ui)
 }

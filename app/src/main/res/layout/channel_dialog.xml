@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="9dp"
+        android:layout_margin="9dp"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Youtube Clone As...."
+            android:textSize="18sp"
+            android:textColor="#212121"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="channel name"
+            android:inputType="text"
+            android:id="@+id/input_channel_name"
+            android:textColor="#212121"
+            android:maxLines="1"
+            android:imeOptions="actionNext"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:padding="9dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="Desciption"
+            android:inputType="textMultiLine"
+            android:id="@+id/input_description"
+            android:textColor="#212121"
+            android:fontFamily="@font/roboto_medium"/>
+            android:maxLines="6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By creating new channel you accept our project on Mobile Applcation Development"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_create_channel"
+            android:text="Create channel"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="15dp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="9dp"
+            android:gravity="end"
+            android:includeFontPadding="false"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

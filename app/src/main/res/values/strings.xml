@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">youtube</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">347289779806-n6s98d1vnfpjo8te4ud6b9nuas7ths39.apps.googleusercontent.com</string>
+    <string name="help_feedback"><![CDATA[Help & Feedback]]></string>
 </resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "347289779806",
+    "firebase_url": "https://friends-2cbe2-default-rtdb.firebaseio.com",
+    "project_id": "friends-2cbe2",
+    "storage_bucket": "friends-2cbe2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347289779806:android:0ae9f6dbb05f72ad1efecf",
+        "android_client_info": {
+          "package_name": "com.example.youtube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347289779806-mphsetsf33po5hgib8g9gfp4ddf3j8t0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.youtube",
+            "certificate_hash": "666872c4351db6141cc33bff6e015ab9fe5a6e71"
+          }
+        },
+        {
+          "client_id": "347289779806-n6s98d1vnfpjo8te4ud6b9nuas7ths39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaY6lqYm45qnBswvpWn-fykOlMCfh2aC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347289779806-n6s98d1vnfpjo8te4ud6b9nuas7ths39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
